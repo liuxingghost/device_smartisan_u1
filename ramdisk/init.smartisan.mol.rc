@@ -1,0 +1,12 @@
+## this is a .rc file for Smartisan make a distinguish between user and mol
+## this is a mol one
+
+on post-fs
+    # set restart_level from SYSTEM -> RELATED, means disable device restart
+    # when subsys restart
+    write /sys/bus/msm_subsys/devices/subsys0/restart_level RELATED
+    write /sys/bus/msm_subsys/devices/subsys1/restart_level RELATED
+    write /sys/bus/msm_subsys/devices/subsys2/restart_level RELATED
+
+    # disable store download_mode cookies from AP side
+    write  /sys/module/msm_poweroff/parameters/download_mode 0

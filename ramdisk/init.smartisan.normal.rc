@@ -1,0 +1,5 @@
+## this is a .rc file for Smartisan make a distinguish between user and mol
+## this is a normal one
+
+on early-init
+    mount debugfs debugfs /sys/kernel/debug

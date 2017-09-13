@@ -1,0 +1,95 @@
+
+
+# system property for PIP support
+persist.camera.pip.support=0
+
+#Ap defined ecclist
+ro.ril.ecclist=911,112,000,08,110,118,119,999,120,122
+
+# added by xiahai.tan for bug914 ro.housing.color
+ro.housing.color=white
+
+# start power engine
+persist.sys.power_ctrl=1
+
+# Default APN protocal
+ro.radio.apn.protocal=IPV4V6
+
+# default enable zram0
+ro.config.zram=true
+
+#codename
+ro.product.codename=Smartisan U1
+
+# multisim config
+persist.radio.multisim.config=dsds
+#Disable SIM cross-mapping function, 2015/12/23 start
+#0 mean open primary/2nd sub switch, anothe word is to enable cross-mapping
+#1 mean close primary/2nd sub switch
+persist.radio.disable_flexmap=1
+#Disable SIM cross-mapping function, 2015/12/23 end
+
+# headset input
+ro.system.headsetinput=msm8939-snd-card-skuk Button Jack
+
+#Dirac audio effect
+ro.dirac.acs.controller=afm
+ro.dirac.afm.mode=local
+ro.dirac.max_active.powersound=3
+ro.dirac.max_active.headset=3
+ro.dirac.acs.ignore_error=1
+
+#fix mantis 0079752,change PS update timer,2016/01/28 start
+persist.radio.snapshot_timer=3
+persist.radio.snapshot_enabled=1
+#fix mantis 0079752,change PS update timer,2016/01/28 end
+
+#start U1 mbn ota daemon,start 2016/02/04
+persist.radio.start_ota_daemon=1
+#start U1 mbn ota daemon,end 2016/02/04
+
+screen.record.width=720
+screen.record.height=1280
+# 1.8Mbps
+screen.record.bitrate=1800
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapminfree=6m
+dalvik.vm.heapstartsize=14m
+keyguard.no_require_sim=true
+ro.com.android.dataroaming=true
+ro.config.ringtone=miDian.ogg
+ro.config.notification_sound=Pollux.ogg
+ro.carrier=unknown
+ro.vendor.extension_library=libqti-perfd-client.so
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.sib16_support=1
+ro.frp.pst=/dev/block/bootdevice/by-name/config
+dalvik.vm.heapsize=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapmaxfree=8m
+persist.smartisan.devtest=0
+persist.smartisan.logs.enable=0
+persist.smartisan.pastetool=1
+persist.smartisan.swapdump=0
+ro.sys.usb.default.config=mtp,mass_storage
+persist.service.cdrom.enable=1
+ro.smartisan.version=3.7.0-2017081600-user-511
+ro.modversion=3.7.0-2017081600-user-511
+ro.config.alarm_alert=jiXieNaoZhong.ogg
+ro.config.mms_notification=resurrect.ogg
+ro.config.mail_send=smartisan_notifications02.ogg
+ro.config.calendar_notification=Tejat.ogg
+ro.crypto.fuse_sdcard=true
+ro.telephony.default_network=20,1
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm.features=div,needfix_835769
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+persist.gps.qc_nlp_in_use=1
+persist.loc.nlp_name=com.qualcomm.location
+ro.gps.agps_provider=1
+ro.pip.gated=0
