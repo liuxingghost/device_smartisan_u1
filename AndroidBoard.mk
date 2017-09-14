@@ -17,7 +17,21 @@ $(shell mkdir -p $(TARGET_OUT_ETC)/firmware/wlan/prima; \
         $(TARGET_OUT_ETC)/firmware/wlan/prima/WCNSS_qcom_cfg.ini; \
         rm $(TARGET_OUT)/lib/modules/wlan.ko; \
         ln -sf /system/lib/modules/pronto/pronto_wlan.ko \
-        $(TARGET_OUT)/lib/modules/wlan.ko)
+        $(TARGET_OUT)/lib/modules/wlan.ko); \
+		ln -sf /system/lib/libwebviewchromium.so  \
+		$(TARGET_OUT)/app/webview/lib/arm/libwebviewchromium.so; \
+		ln -sf /system/lib/libGLESv3.so  \
+		$(TARGET_OUT)/lib/libGLESv2.so; \
+		ln -sf /system/vendor/ChinaMobile/system/app/RcsService/lib/arm/librcs_jni.so  \
+		$(TARGET_OUT)/vendor/lib/librcs_jni.so; \
+		ln -sf /system/vendor/app/VideoCall/lib/arm/libcamerahandler_jni.so  \
+		$(TARGET_OUT)/vendor/lib/libcamerahandler_jni.so; \
+		ln -sf /system/vendor/app/VideoCall/lib/arm/libcsvt_jni.so  \
+		$(TARGET_OUT)/vendor/lib/libcsvt_jni.so; \
+		ln -sf /system/vendor/ims/lib/arm/libimscamera_jni.so  \
+		 $(TARGET_OUT)/vendor/lib/libimscamera_jni.so; \
+		ln -sf /system/vendor/ims/lib/arm/libimsmedia_jni.so  \
+		 $(TARGET_OUT)/vendor/lib/libimsmedia_jni.so
 endif
 
 

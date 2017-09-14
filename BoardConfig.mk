@@ -209,6 +209,10 @@ PROTOBUF_SUPPORTED := true
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+#Add support for firmare upgrade on 8916
+HAVE_SYNAPTICS_I2C_RMI4_FW_UPGRADE := true
+
+
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
