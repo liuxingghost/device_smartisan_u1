@@ -1,4 +1,13 @@
-######################
+######################/system/etc/firmware/ need to copy
+####
+framework/com.qualcomm.location.vzw_library.jar
+app/TimeService/TimeService.apk
+app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+framework/imscmlibrary.jar
+framework/qcnvitems.jar
+framework/qcrilhook.jar
+framework/WfdCommon.jar
+####
 #vendor
 vendor/app/WfdService/WfdService.apk
 vendor/app/ims/ims.apk
@@ -637,7 +646,7 @@ vendor/lib/soundfx/libdirac.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
-vendor/lib/speccfg/carrier_regional_pack_conf.xml
+vendor/speccfg/carrier_regional_pack_conf.xml
 
 #bin
 bin/fm_qsoc_patches
@@ -724,11 +733,8 @@ lib/libandroid_servers.so
 lib/libandroidfw.so
 lib/libantradio.so
 lib/libart-compiler.so
-lib/libart-compiler.so.orig.gz
 lib/libart-disassembler.so
-lib/libart-disassembler.so.orig.gz
 lib/libart.so
-lib/libart.so.orig.gz
 lib/libaudio-resampler.so
 lib/libaudioeffect_jni.so
 lib/libaudioflinger.so
@@ -854,7 +860,6 @@ lib/libkeystore_binder.so
 lib/liblauncher_gaussian_blur.so
 lib/liblauncher_opt.so
 lib/libleveldbjni.so
-lib/liblocSDK5.so
 lib/libloc_api_v02.so
 lib/libloc_core.so
 lib/libloc_ds_api.so
@@ -930,7 +935,6 @@ lib/libserviceutility.so
 lib/libsettings_bitmap_gaussian_blur.so
 lib/libsettings_bitmap_gaussian_blur2.so
 lib/libsigchain.so
-lib/libsigchain.so.orig.gz
 lib/libskia.so
 lib/libsmartdialer_oem_module.so
 lib/libsmartfolder.so
@@ -1045,7 +1049,6 @@ lib/soundfx/libqcomvisualizer.so
 lib/soundfx/libqcomvoiceprocessing.so
 lib/soundfx/libreverbwrapper.so
 lib/soundfx/libvisualizer.so
-lib/ssl/engines/libkeystor
 
 #etc
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -1115,13 +1118,7 @@ etc/firmware/venus.b03
 etc/firmware/venus.b04
 etc/firmware/venus.mbn
 etc/firmware/venus.mdt
-etc/firmware/wcd9306/wcd9306_anc.bin
-etc/firmware/wcd9306/wcd9306_mbhc.bin
 etc/firmware/wlan/prima/WCNSS_cfg.dat
-etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin.bak
-etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat
 etc/gps.conf
 etc/hostapd/hostapd.accept
 etc/hostapd/hostapd.deny

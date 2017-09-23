@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from U1 device
-$(call inherit-product, device/smartisan/yq601/device.mk)
+$(call inherit-product, device/smartisan/u1/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := U1

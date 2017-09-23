@@ -236,8 +236,8 @@ PRODUCT_PACKAGES += \
     keystore.msm8916
 
 # Lights
-# PRODUCT_PACKAGES += \
-#     lights.msm8916
+PRODUCT_PACKAGES += \
+    lights.msm8916
 
 	
 # NFC
@@ -274,26 +274,26 @@ PRODUCT_PACKAGES += \
 
 
 
-# PRODUCT_PACKAGES += \
-#     fstab.qcom \
-#     init.qcom.rc \
-#     init.target.rc \
-#     init.qcom.usb.rc \
-#     init.qti.carrier.rc \
-#     ueventd.qcom.rc
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.qcom.rc \
+    init.target.rc \
+    init.qcom.usb.rc \
+    init.qti.carrier.rc \
+    ueventd.qcom.rc
 	
-# PRODUCT_PACKAGES += \
-#     init.class_main.sh \
-# 	init.mdm.sh \
-# 	init.qcom.bms.sh \
-# 	init.qcom.class_core.sh \
-# 	init.qcom.early_boot.sh \
-# 	init.qcom.factory.sh \
-# 	init.qcom.sh \
-# 	init.qcom.ssr.sh \
-# 	init.qcom.syspart_fixup.sh \
-# 	init.qcom.usb.sh \
-# 	ueventd.rc
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+	init.mdm.sh \
+	init.qcom.bms.sh \
+	init.qcom.class_core.sh \
+	init.qcom.early_boot.sh \
+	init.qcom.factory.sh \
+	init.qcom.sh \
+	init.qcom.ssr.sh \
+	init.qcom.syspart_fixup.sh \
+	init.qcom.usb.sh \
+	ueventd.rc
 
 # RIL
 PRODUCT_PACKAGES += \
